@@ -2,6 +2,10 @@ import io, re
 import streamlit as st
 import pandas as pd
 
+import sys
+st.caption(f"Runtime Python: {sys.version}")
+
+
 # PDF parsing
 try:
     import pdfplumber
